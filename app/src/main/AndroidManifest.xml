@@ -7,9 +7,9 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Uygulama Adı"
+        android:label="EBA"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TamEkran">
+        android:theme="@style/Theme.FullScreen">
         <activity
             android:name=".MainActivity"
             android:exported="true">
