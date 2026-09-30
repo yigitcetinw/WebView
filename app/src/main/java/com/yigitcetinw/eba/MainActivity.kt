@@ -1,4 +1,4 @@
-package com.haxbey.webview
+package com.yigitcetinw.eba
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         webView.webViewClient = WebViewClient() 
         
         // Açılacak site
-        webView.loadUrl("https://www.youtube.com")
+        webView.loadUrl("https://www.giris.eba.com")
 
         // Geri tuşu kontrolü (Uygulamadan çıkmak yerine bir önceki sayfaya döner)
         onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
