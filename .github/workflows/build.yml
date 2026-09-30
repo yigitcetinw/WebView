@@ -15,6 +15,8 @@ jobs:
           distribution: 'temurin'
       - name: Gradle Kur
         uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: '8.4'
       - name: APK Oluştur
         run: gradle assembleDebug
       - name: APK'yı Yükle
