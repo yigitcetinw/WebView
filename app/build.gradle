@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.haxbey.webview'
+    namespace 'com.yigitcetinw.eba'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.haxbey.webview"
+        applicationId "com.yigitcetinw.eba"
         minSdk 24
         targetSdk 34
         versionCode 1
