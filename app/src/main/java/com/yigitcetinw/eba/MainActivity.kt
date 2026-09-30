@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         webView.webViewClient = WebViewClient() 
         
         // Açılacak site
-        webView.loadUrl("https://www.giris.eba.com")
+        webView.loadUrl("https://giris.eba.gov.tr/")
 
         // Geri tuşu kontrolü (Uygulamadan çıkmak yerine bir önceki sayfaya döner)
         onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
